@@ -1,4 +1,4 @@
-/* page head Sections*/
+/* page head Sections */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -94,7 +94,7 @@ body {
   background-size: 375px 604px;
 }
 
-/* Skills Sections*/
+/* Skills Sections */
 
 .skills {
   grid-column: auto;
@@ -215,7 +215,7 @@ body {
   color: #fff;
 }
 
-/* AboutMe Sections*/
+/* AboutMe Sections */
 
 .aboutmeHero {
   padding-top: 60px;
@@ -326,7 +326,7 @@ body {
   color: #fff;
 }
 
-/* ContactMe Sections*/
+/* ContactMe Sections */
 
 .contactme {
   box-sizing: border-box;
