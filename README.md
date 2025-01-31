@@ -101,7 +101,7 @@ sh
 
  ## 🔭 Future Features <a name="future-features"></a>
 
-- integration with javascript for more respoonsiveness and interactivity
+- integration with javascript for more respoonsiveness
 - Adding more html contents
 
 ## 🤝 Contributing <a name="contributing"></a>
