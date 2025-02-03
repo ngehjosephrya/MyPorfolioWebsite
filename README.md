@@ -27,7 +27,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Codegisoft <a name="Hello CodegiSoft Academy"></a>
+# 📖 My Porfolio Website <a name="My Porfolio Website"></a>
 
 This project is aimed at creating a simple portfolio page for a software developer. The project is a simple HTML and CSS project that aimed at conveting a Figma design to a fully functional website
 
@@ -114,4 +114,4 @@ I will like to thank Codegisoft and all the students i've collaborated with
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./license.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
