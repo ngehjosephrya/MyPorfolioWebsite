@@ -327,15 +327,15 @@ body {
   width: 90%;
   max-width: 765px;
   min-width: 375px;
-  height: 779px;
+  height: 765px;
   padding: 20px;
   margin-bottom: 200px;
   background-color: #6070ff;
   border-top-left-radius: 90px;
   background-image: url('/assets/contactme.png');
   background-repeat: no-repeat;
-  background-position: right 15px top 20px; /* or some offset if needed */
-  background-size: cover;       /* or cover, depending on your design */
+  background-position: right 15px top 20px;
+  background-size: 50% 90%;
 }
 
 .contactmeHero {
@@ -364,13 +364,11 @@ body {
 
 #senderName {
   width: 90%;
-  height: 48px;
-  background-color: #fff;
+  height: 30px;
   border-radius: 10px;
-  border-color: #a8b0f3;
   margin-top: 10px;
   padding-left: 10px;
-  border: none;
+  border: 2px solid #ccc;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -379,13 +377,11 @@ body {
 
 #senderEmail {
   width: 90%;
-  height: 48px;
-  background-color: #fff;
+  height: 30px;
   border-radius: 10px;
-  border-color: #a8b0f3;
   margin-top: 20px;
   padding-left: 10px;
-  border: none;
+  border: 2px solid #ccc;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -393,18 +389,17 @@ body {
 }
 
 #Message {
-  width: 90%;
-  height: 170px;
-  background-color: #fff;
+  width: 93%;
+  height: 130px;
   border-radius: 10px;
-  border: none;
+  border: 2px solid #ccc;
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 500;
   color: #172b4d;
   padding: 12px 5px;
-  line-height: 50px;
+  line-height: 20px;
 }
 
 input::placeholder {
@@ -415,15 +410,22 @@ input::placeholder {
 }
 
 textarea::placeholder {
-  line-height: 50px;
+  line-height: 20px;
   font-size: 17px;
   font-weight: 500;
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
 }
 
+input:invalid,
+textarea:invalid {
+  border: none;
+  border-bottom: 2px solid rgb(192, 71, 71) !important;
+}
+
+
 /* Responsive styles for tablets (max-width: 765px) */
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .container {
     padding: 20px;
     min-width: 375px;

@@ -11,7 +11,7 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <Section class="container">
+        <section class="container">
             <nav class="header">
                 <div class="logo">My Logo</div>
                 <div class="menu-icon">
@@ -33,9 +33,9 @@
                 <a href="#"><i class="fa-solid fa-code"></i></a>
                 <a href="#"><i class="fa-solid fa-mug-hot"></i></a>
             </div>
-        </Section>
+        </section>
 
-        <Section class="skills">
+        <section class="skills">
             <div class="skill1">
                 <div class="imgskill1"></div>
                 <img src="/assets/skills/skill1.png" alt>
@@ -127,9 +127,9 @@
                 </div>
                 <button id="Button" type="button"> See project</button>
             </div>
-        </Section>
+        </section>
 
-        <Section class="aboutMe">
+        <section class="aboutMe">
             <div class="aboutmeHero">
                 <h2> About MySelf</h2>
                 <p>Hello I’m a software developer! I can help you build a
@@ -166,9 +166,9 @@
                     <i class="fas fa-chevron-right toggle-icon"></i>
                 </li>
             </ul>
-        </Section>
+        </section>
 
-        <Section class="contactme">
+        <section class="contactme">
             <div class="contactmeHero">
                 <h2> Contact Me</h2>
                 <p>If you have an application you are interested in developing,
@@ -176,14 +176,15 @@
                     coding.
                     I'd love to help with it!</p>
             </div>
-            <input type="text" name="Name" id="senderName"
-                placeholder="Enter your Name">
-            <input type="email" name="email" id="senderEmail"
-                placeholder="Enter your Email Adress">
-            <textarea name="Message" id="Message"
-                placeholder="Write your message here"></textarea>
-            <button id="Button" type="button"> Get in touch </button>
-            <div class="contactmeImage"></div>
-        </Section>
+            <form action="" method="post" class="contact-form">
+                <input type="text" name="Name" id="senderName" required
+                    placeholder="Enter your Name" pattern="[A-Za-z\s]{2,}" title="Name should contain only letters and spaces" maxlength="50">
+                <input type="email" name="email" id="senderEmail"   pattern="^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$" required
+                    placeholder="Enter your Email Adress">
+                <textarea name="Message" id="Message"
+                    placeholder="Write your message here" required minlength="10" ></textarea>
+                <button id="Button" type="submit"> Get in touch </button>
+            </form>
+        </section>
     </body>
 </html>
