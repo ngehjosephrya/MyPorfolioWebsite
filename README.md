@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h1><b>:y Porfolio Mobile View</b></h1>
+  <h1><b>My Porfolio Mobile View</b></h1>
 
 </div>
 
