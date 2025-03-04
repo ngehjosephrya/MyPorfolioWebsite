@@ -423,7 +423,6 @@ textarea:invalid {
   border-bottom: 2px solid rgb(192, 71, 71) !important;
 }
 
-
 /* Responsive styles for tablets (max-width: 765px) */
 @media (max-width: 765px) {
   .container {
