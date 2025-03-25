@@ -446,7 +446,7 @@ textarea:invalid {
     width: 100%;
   }
 
-  /*About me section*/
+  /* About me section */
   .category-lang {
     display: flex;
     gap: 10px;
@@ -455,7 +455,7 @@ textarea:invalid {
     border-radius: 10px;
     margin-bottom: 10px;
   }
-  
+
   .category-list {
     list-style: none;
     padding-top: 40px;
@@ -465,7 +465,7 @@ textarea:invalid {
     height: 72px;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   .category-list li {
     display: flex;
     justify-content: space-between;
@@ -479,37 +479,31 @@ textarea:invalid {
     cursor: pointer;
     transition: 0.3s ease;
   }
-  
+
   .category-list li:hover {
     background: #6070ff;
     color: #fff;
   }
 
   .lang {
-  padding-top: 15px;
-  padding-left: 25px;
-  padding-bottom: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.lang img {
-  width: 48px;
-  margin: 10px;
-  height: 48px;
-  left: 12px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-}
+  .lang img {
+    width: 48px;
+    margin: 10px;
+    height: 48px;
+    left: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
 
-.aboutmeCard1{
-  display: grid;
-}
-
-  .contactme {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+  .aboutmeCard1 {
+    display: grid;
   }
 
   .contactme textarea {
@@ -535,6 +529,7 @@ textarea:invalid {
   .contactme button:hover {
     background-color: #0056b3;
   }
+
   .contactme {
     position: relative;
     box-sizing: border-box;
@@ -557,12 +552,13 @@ textarea:invalid {
     min-width: 375px;
     max-width: 375px;
   }
-  
+
   .skills {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
   .aboutMe {
     padding: 10px;
   }
